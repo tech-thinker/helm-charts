@@ -3,6 +3,16 @@ entries:
   mrasif-in:
   - apiVersion: v2
     appVersion: v4.6.0
+    created: "2026-02-12T20:32:26.313985352Z"
+    description: A Helm chart for mrasif.in
+    digest: c82f2c13aff31ccc89f040182f5ae703e42f2f552edee9b08fc74640c6e719c1
+    name: mrasif-in
+    type: application
+    urls:
+    - https://github.com/tech-thinker/helm-charts/releases/download/mrasif-in-1.0.3/mrasif-in-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: v4.6.0
     created: "2026-02-12T20:22:36.927701706Z"
     description: A Helm chart for mrasif.in
     digest: a1648f962f5a7799fe89b75e5c2e3131f1d965ae45f68adc8d4cea4b6e5ab727
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/tech-thinker/helm-charts/releases/download/mrasif-in-1.0.2/mrasif-in-1.0.2.tgz
     version: 1.0.2
-generated: "2026-02-12T20:22:36.927713679Z"
+generated: "2026-02-12T20:32:26.313997925Z"
