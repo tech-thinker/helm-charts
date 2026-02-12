@@ -1,0 +1,3 @@
+{{- if .Values.ingress.enabled }}
+  URL is {{ .Values.ingress.host }}
+{{- end }}
