@@ -2,20 +2,20 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: mrasif-in
-  name: mrasif-in
+    app: mrasif
+  name: mrasif
 spec:
   replicas: { { .Values.replicaCount } }
   selector:
     matchLabels:
-      app: mrasif-in
+      app: mrasif
   template:
     metadata:
       labels:
-        app: mrasif-in
+        app: mrasif
     spec:
       containers:
-        - name: mrasif-in
+        - name: mrasif
           image: mrasif/mrasif.in:{{ .Values.image.tag }}
           imagePullPolicy: { { .Values.image.pullPolicy } }
           ports:
